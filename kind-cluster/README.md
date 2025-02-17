@@ -1,3 +1,5 @@
+## 0. Install Docker
+```sudo apt-get install docker.io```
 # KIND Cluster Setup Guide
 
 ## 1. Installing KIND and kubectl
