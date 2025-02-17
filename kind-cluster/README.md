@@ -1,5 +1,11 @@
 ## 0. Install Docker
 ```sudo apt-get install docker.io```
+
+### Check if the docker has permission or not
+```docker ps```
+If access denied
+```sudo usermod -aG docker $USER && newgrp docker```
+
 # KIND Cluster Setup Guide
 
 ## 1. Installing KIND and kubectl
